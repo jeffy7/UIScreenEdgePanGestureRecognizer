@@ -14,6 +14,7 @@
 		17F051D91B8082ED003D52FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F051D81B8082ED003D52FD /* Images.xcassets */; };
 		17F051DC1B8082ED003D52FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F051DA1B8082ED003D52FD /* LaunchScreen.xib */; };
 		17F051E81B8082ED003D52FD /* UIScreenEdgePanGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F051E71B8082ED003D52FD /* UIScreenEdgePanGestureRecognizerTests.m */; };
+		17F051F31B80852B003D52FD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F051F21B80852B003D52FD /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		17F051E11B8082ED003D52FD /* UIScreenEdgePanGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScreenEdgePanGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F051E61B8082ED003D52FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17F051E71B8082ED003D52FD /* UIScreenEdgePanGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScreenEdgePanGestureRecognizerTests.m; sourceTree = "<group>"; };
+		17F051F11B80852B003D52FD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		17F051F21B80852B003D52FD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				17F051D01B8082ED003D52FD /* AppDelegate.m */,
 				17F051D21B8082ED003D52FD /* ViewController.h */,
 				17F051D31B8082ED003D52FD /* ViewController.m */,
+				17F051F11B80852B003D52FD /* SecondViewController.h */,
+				17F051F21B80852B003D52FD /* SecondViewController.m */,
 				17F051D51B8082ED003D52FD /* Main.storyboard */,
 				17F051D81B8082ED003D52FD /* Images.xcassets */,
 				17F051DA1B8082ED003D52FD /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F051F31B80852B003D52FD /* SecondViewController.m in Sources */,
 				17F051D41B8082ED003D52FD /* ViewController.m in Sources */,
 				17F051D11B8082ED003D52FD /* AppDelegate.m in Sources */,
 				17F051CE1B8082ED003D52FD /* main.m in Sources */,
